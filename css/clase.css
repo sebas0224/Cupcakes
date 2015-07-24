@@ -1,0 +1,151 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  background-size: cover;
+}
+.inicio {
+ 
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.inicio .menu{
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 0;
+}
+.inicio .menu .imagen{
+  text-align: center;
+  display: block;
+  padding: 50px 0 0;
+}
+.inicio .menu nav{
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 20px 0 0;
+  border-bottom: 1px dashed #FF99CC;
+}
+
+.inicio .menu nav a{
+  margin: 10px 30px;
+  text-decoration: none;
+}
+
+.inicio .informa {
+  display: block;
+  padding: 20px;
+}
+.inicio .informa .info, .inicio .informa .image {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.inicio .informa .image img {
+  max-width: 100%;
+}
+.inicio .prices .price {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 5px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.inicio .prices .price header {
+  margin: 0 0 10px 0;
+}
+.inicio .prices .price header h1, .inicio .prices .price header h3 {
+  margin: 0;
+  padding: 0;
+}
+.inicio .prices .price header h1 {
+  font-size: 16px;
+}
+.wrapper .prices .price header h3 {
+  font-size: 14px;
+}
+.inicio .prices .price ul {
+  margin: 0;
+  padding: 0;
+}
+.inicio .prices .price li {
+  list-style: none;
+  color: white;
+}
+.inicio .prices .price a {
+  margin-top: 20px;
+  background: blue;
+  border-radius: 3px;
+  padding: 4px 0;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (max-width: 360px){
+  body {
+    color: red;
+  }
+  .info{
+    width: 100% !important;
+  }
+  .image{
+    display: none !important;
+  }
+  .price {
+    width: 100% !important;
+    display: block;
+  }
+  .price ul{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px){
+  body {
+    color: blue;
+  }
+  .info{
+    width: 100% !important;
+  }
+  .image{
+    display: none !important;
+  }
+  .price {
+    width: 100% !important;
+    display: block;
+  }
+  .price ul:odd{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px){
+  body {
+    color: red;
+  }
+  .info{
+    width: 100% !important;
+  }
+  .image{
+    display: none !important;
+  }
+  .price {
+    width: 100% !important;
+    display: block;
+  }
+  .price ul{
+    display: none;
+  }
+}
